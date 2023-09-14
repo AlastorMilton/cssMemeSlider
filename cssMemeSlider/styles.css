@@ -51,9 +51,10 @@ body {
 
 .buttons {
     margin-top: -2.313rem;
-    margin-left: 14.375rem;
+    margin-left: 20.200rem;
     width: 9.375rem;
     background-color: #FFC324;
+    display: grid;
 }
 
 
@@ -62,12 +63,14 @@ body {
 }
 
 .dots {
-    width: 12.5rem;
+    width: 6.25rem;
     height: 0.938rem;
     display: flex;
     justify-content: flex-end;
     background-color: #FFC324;
     z-index: 1;
+    padding-bottom: 0.625rem;
+    padding-left: 0.625rem;
 }
 
 .dots label {
