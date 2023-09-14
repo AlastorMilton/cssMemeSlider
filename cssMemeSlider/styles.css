@@ -125,3 +125,134 @@ h2 {
 input:checked {
     opacity: 0.8;
 }
+
+@media (max-width: 320px) {
+
+    .slider-main {
+        margin: auto;
+        width: 18.75rem;
+        height: 31.25rem;
+        border-radius: 1.563rem;
+        background-color: #FFC324;
+        box-shadow: 0rem 0.625rem 0.625rem #000;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .slider-countainer {
+        width: 17.5rem;
+        height: 28.125rem;
+        margin-top: 1.25rem;
+        overflow: hidden;
+    
+    }
+    
+    .slide {
+        transition: 1.3s;
+    }
+    
+    
+    .memes {
+        width: 17.5rem;
+        height: 17.5rem;
+        object-fit: cover;
+        transition: 1.3s;
+    }
+    
+    .second-countainer {
+        width: 18.75rem;
+        display: flex;
+        margin-bottom: 0.625rem;
+        justify-content: center;
+    }
+    
+    .sign {
+        display: flex;
+        width: 21.875rem;
+        height: 0.938rem;
+    
+    }
+    
+    .buttons {
+
+        margin-top: -8.125rem;
+        margin-left: 0rem;
+        width: 9.375rem;
+        background-color: #FFC324;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .radio {
+        display: none;
+    }
+    
+    .dots {
+        width: 6.25rem;
+        height: 0.938rem;
+        display: flex;
+        justify-content: flex-start;
+        background-color: #FFC324;
+        z-index: 1;
+    }
+    
+    .dots label {
+        display: block;
+        width: 0.938rem;
+        height: 0.938rem;
+        background-color: #222126;
+        margin: 0 0.313rem;
+        border-radius: 50%;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+    
+    h2 {
+        margin-top: 6.25rem;
+        font-size: 1.563rem;
+        overflow: visible;
+        text-align: center;
+    
+    }
+    
+    .dots label:hover {
+        opacity: 0.8;
+    }
+    
+    .dots label:checked {
+        opacity: 0.8;
+    }
+    
+    
+    
+    
+    .window {
+        display: flex;
+        flex-direction: row;
+        transition: 0.7s;
+        height: 25rem;
+    }
+    
+    #radio:checked ~ .window {
+        transform: translateX(0%);
+    }
+    
+    
+    #radio-one:checked ~ .window {
+        transform: translateX(-100%);
+    }
+    
+    #radio-two:checked ~ .window {
+        transform: translateX(-200%);
+    }
+    
+    #radio-three:checked ~ .window {
+        transform: translateX(-300%);
+    }
+    
+    input:checked {
+        opacity: 0.8;
+    }
+}
